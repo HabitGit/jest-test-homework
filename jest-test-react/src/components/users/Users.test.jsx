@@ -4,8 +4,8 @@ import mockAxios from "jest-mock-axios";
 import {MemoryRouter} from "react-router-dom";
 import React from "react";
 import userEvent from "@testing-library/user-event";
-import AppRouter from "../router/AppRouter";
-import {renderWithRouter} from "../tests/helper/renderWithRouter";
+import AppRouter from "../../router/AppRouter";
+import {renderWithRouter} from "../../tests/helper/renderWithRouter";
 
 describe('TEST app', () => {
 
